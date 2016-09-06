@@ -22,11 +22,11 @@ class PriorityQueue {
 	}
 
 	size() {
-		return this.length;
+		return this.parentNodes.length;
 	}
 
 	isEmpty() {
-		if (this.length = 0){
+		if (this.parentNodes.length == 0){
 			return true;
 		}
 
